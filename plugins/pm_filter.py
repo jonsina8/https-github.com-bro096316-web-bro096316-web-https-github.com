@@ -545,9 +545,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     InlineKeyboardButton('🔐 ᴘʀᴇᴍɪᴜᴍ', callback_data='buy_premium')
                 ],[
                     InlineKeyboardButton('💰 ᴇᴀʀɴ ᴍᴏɴᴇʏ ʙʏ ʙᴏᴛ 💰', callback_data='earn')
-                    InlineKeyboardButton('⌬ Mᴏᴠɪᴇ Gʀᴏᴜᴘ ✪ ', callback_data='GRP_LNK')
+                    InlineKeyboardButton(' ⌬ Mᴏᴠɪᴇ Gʀᴏᴜᴘ', url=GRP_LNK')
                   ],[
-                    InlineKeyboardButton(' ✇ Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ✇ ', callback_data='CHNL_LNK')
+                    InlineKeyboardButton(' ✇ Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ✇', url=CHNL_LNK')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
