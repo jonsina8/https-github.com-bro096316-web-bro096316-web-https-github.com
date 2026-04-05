@@ -37,7 +37,7 @@ PORT = int(environ.get('PORT', '80')) #don't change anything
 PICS = (environ.get('PICS', 'https://files.catbox.moe/5ytyme.jpg https://files.catbox.moe/p87351.jpg https://files.catbox.moe/il2ud1.jpg https://files.catbox.moe/ldc04y.jpg https://files.catbox.moe/8ll1qo.jpg')).split()
 
 # Bot Admins
-ADMINS = environ.get('ADMINS', '6765929934') #apni tg id daalo
+ADMINS = environ.get('ADMINS', '7436687322 6765929934') #apni tg id daalo
 if len(ADMINS) == 0:
     print('Error - ADMINS is missing, exiting now')
     exit()
@@ -51,7 +51,7 @@ if len(INDEX_CHANNELS) == 0:
 AUTH_CHANNEL = [int(auth_channels) for auth_channels in environ.get('AUTH_CHANNEL', '-1002520793005').split()]
 if len(AUTH_CHANNEL) == 0:
     print('Info - AUTH_CHANNEL is empty')
-LOG_CHANNEL = environ.get('LOG_CHANNEL', '-1002552925944') #bot log channel -1005293546253
+LOG_CHANNEL = environ.get('LOG_CHANNEL', '-1002592134690') #bot log channel -1005293546253
 if len(LOG_CHANNEL) == 0:
     print('Error - LOG_CHANNEL is missing, exiting now')
     exit()
@@ -68,15 +68,15 @@ else:
     SUPPORT_GROUP = int(SUPPORT_GROUP)
 
 # MongoDB information
-DATABASE_URL = environ.get('DATABASE_URL', "mongodb+srv://Jarsi:joni778800@cluster0.tmuqruh.mongodb.net/?appName=Cluster0") #mongo db url
+DATABASE_URL = environ.get('DATABASE_URL', "mongodb+srv://Bakasur:bakasur09777abhi@cluster0.somdq5s.mongodb.net/?appName=Cluster0") #mongo db url
 if len(DATABASE_URL) == 0:
     print('Error - DATABASE_URL is missing, exiting now')
     exit()
-DATABASE_NAME = environ.get('DATABASE_NAME', "Jarsi")
+DATABASE_NAME = environ.get('DATABASE_NAME', "Bakasur")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Links
-SUPPORT_LINK = environ.get('SUPPORT_LINK', 'https://t.me/Your_Movie_Link_8')
+SUPPORT_LINK = environ.get('SUPPORT_LINK', 'https://t.me/+Ak9u-iW4Lps5MjFl')
 UPDATES_LINK = environ.get('UPDATES_LINK', 'https://t.me/movies_updet')
 FILMS_LINK = environ.get('FILMS_LINK', 'https://t.me/movies_updet')
 TUTORIAL = environ.get("TUTORIAL", "https://t.me/how_to_downlod09/9")
@@ -85,7 +85,7 @@ VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "https://t.me/how_to_downlod09/
 
 
 # channel and group links
-GRP_LINK = environ.get('GRP_LINK', 'https://t.me/Your_Movie_Link_8')
+GRP_LINK = environ.get('GRP_LINK', 'https://t.me/+Ak9u-iW4Lps5MjFl')
 CHNL_LINK = environ.get('CHNL_LINK', 'https://t.me/movies_updet')
 
 # Bot settings
