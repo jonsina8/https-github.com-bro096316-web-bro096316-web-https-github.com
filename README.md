@@ -2,7 +2,7 @@
   <img src="https://graph.org//file/94891b8229c6b1e03d1e8.jpg">
 </p>
 <h1 align="center">
-  <b>RK FILTER BOT</b>
+  𝐅𝐥𝐢𝐜𝐤 𝐇𝐮𝐧𝐭 Bot</b>
 </h1>
 
 ![Fork](https://img.shields.io/github/forks/Rishikesh-Sharma09/Auto-Filter-Bot?style=for-the-badge)
