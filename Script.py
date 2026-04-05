@@ -10,7 +10,7 @@ class script(object):
 
     MY_OWNER_TXT = """★ Name: RK Botz
 ★ Username: @Rk_botowner
-★ Update Channel : @Rkbotz"""
+★ Update Channel : @Kingak70"""
 
     STATUS_TXT = """<b>╭━━━━━━━━❰sᴛᴀᴛᴜs ʙᴀʀ❱══❍⊱❁۪۪
 ┣⪼𖨠 🗃️ ᴛᴏᴛᴀʟ ꜰɪʟᴇs: <code>{}</code>
@@ -160,4 +160,4 @@ I can't find the <b>{}</b> in my database! 🥲
 
 - ꜱᴏᴜʀᴄᴇ - <a href=*>ʜᴇʀᴇ</a>
 
-- ᴅᴇᴠʟᴏᴘᴇʀ - @Rkbotz"""
+- ᴅᴇᴠʟᴏᴘᴇʀ - @Kingak70"""
