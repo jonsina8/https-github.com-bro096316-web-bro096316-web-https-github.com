@@ -34,7 +34,7 @@ if len(BOT_TOKEN) == 0:
 PORT = int(environ.get('PORT', '80')) #don't change anything 
 
 # Bot pics
-PICS = (environ.get('PICS', 'https://files.catbox.moe/5ytyme.jpg https://files.catbox.moe/p87351.jpg https://files.catbox.moe/il2ud1.jpg https://files.catbox.moe/ldc04y.jpg https://files.catbox.moe/8ll1qo.jpg')).split()
+PICS = (environ.get('PICS', 'https://files.catbox.moe/uvnzpr.jpg https://files.catbox.moe/wzc7us.jpg https://files.catbox.moe/50hbim.jpg https://files.catbox.moe/2dcunx.jpg https://files.catbox.moe/funnuq.jpg')).split()
 
 # Bot Admins
 ADMINS = environ.get('ADMINS', '7436687322 6765929934') #apni tg id daalo
